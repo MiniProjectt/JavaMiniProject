@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+	<style>
+		body{
+	background:url(https://wallpapertag.com/wallpaper/full/9/e/2/221122-travel-background-2880x1800-hd.jpg);
+	background-size:cover; 
+}
+
+form{
+	text-align: center;
+	border:solid 2px #bdc3c7;
+	width:40%;
+	padding:50px 20px 50px 20px;
+	margin: 20px auto;	
+}
+
+h1{
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	color:#00FFFF;
+	letter-spacing: 2px;
+}
+
+label{
+	color:#00FFFF;
+	font-size: 20px;
+	font-weight: 800;
+}
+	</style>
+</head>
+<body>
+	<h1>Trouvaille Tours</h1>
+<h1>Signup for Travel account</h1>
+
+<form action="C:\Users\krishna\Desktop\java mini project\congrats.html">
+	<div>
+		<label for="f_name">First Name:</label>
+		<input id="f_name" type="text" name="f_Name" placeholder="Jake" required>
+		<label for="l_name">Last Name:</label>
+		<input id="l_name" type="text" name="l_Name" placeholder="Smith" required>
+	</div>
+	<br>
+	<div>
+		<label name="gender">Gender:</label>
+		<label for="male">Male</label>
+		<input id="male" type="radio" name="gender" value="male">
+		<label for="female">Female</label>
+		<input id="female" type="radio" name="gender" value="female">
+		<label for="others">Others<label>
+		<input id="others"type="radio" name="gender" value="others">	
+	</div>
+	<br>
+	<div>
+		<label for="email">Email:</label>
+		<input id="email" type="email" name="email" placeholder="abc@gmail.com" required>
+		<label for="password">Password:</label>
+		<input id="password" type="password" pattern=".{8,12}" name="password" required title="Enter password between 8 to 12 characters">
+	</div>
+	<br>
+	<div>
+		<label for="phn">Mobile no:</label>
+		<input id="phn" type="tel" name="mobile no" placeholder="+91" required>
+	</div>
+	<br>
+	<div>
+		<label>Birthday:</label>
+		<select name="month">
+			<option>Month</option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>March</option>
+			<option>April</option>
+			<option>May</option>
+			<option>June</option>
+			<option>July</option>
+			<option>Aug</option>
+			<option>Sept</option>
+			<option>Oct</option>
+			<option>Nov</option>
+			<option>Dec</option>
+		</select>
+		<select name="day">
+			<option>Day</option>
+			<option>01</option>
+			<option>02</option>
+			<option>03</option>
+			<option>04</option>
+			<option>05</option>
+			<option>06</option>
+			<option>07</option>
+			<option>08</option>
+			<option>09</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+			<option>13</option>
+			<option>14</option>
+			<option>15</option>
+			<option>16</option>
+			<option>17</option>
+			<option>18</option>
+			<option>19</option>
+			<option>20</option>
+			<option>21</option>
+			<option>22</option>
+			<option>23</option>
+			<option>24</option>
+			<option>25</option>
+			<option>26</option>
+			<option>27</option>
+			<option>28</option>
+			<option>29</option>
+			<option>30</option>
+			<option>31</option>
+		</select>
+		<select name="year">
+			<option>Year</option>
+			<option>1999</option>
+			<option>2000</option>
+			<option>2001</option>
+			<option>2002</option>
+			<option>2003</option>
+			<option>2004</option>
+			<option>2005</option>
+			<option>2006</option>
+			<option>2007</option>
+			<option>2008</option>
+			<option>2009</option>
+			<option>2010</option>
+			<option>2011</option>
+			<option>2012</option>
+			<option>2013</option>
+			<option>2014</option>
+			<option>2015</option>
+			<option>2016</option>
+			<option>2017</option>
+			<option>2018</option>
+			<option>2019</option>
+			<option>2020</option>
+		</select>
+	</div>
+	<br>
+	<div>
+		<label for="t&c">I agree to the terms and conditions</label>
+		<input id="t&c"type="checkbox" name="t&c" required>
+	</div>
+	<br>
+	<button>Submit</button>
+</form>
+</body>
+</html>
